@@ -1,8 +1,8 @@
 max=0
-while true:
+while True:
 		a= int(input("masukan bilangan : "))
 		if a==0:
-				break
+			break
 		if a>max:
-				max=a
+			max=a
 print("bilangan terbesar ",max)
